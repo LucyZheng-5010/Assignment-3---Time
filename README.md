@@ -45,14 +45,20 @@ function draw() {
 
 
   // emoji
-  textSize(80);
   push();
   translate(meteorX, meteorY);
   rotate(meteorAngle);
+  
+  textSize(80);
   text("☄️", 0, 0);
-  pop();
+  
 
+  if (frameCount >= 180 && frameCount < 250) {
+    textSize(30); 
+    text("😱", -5, -30); 
+  }
+  pop();
+  
   textSize(80);
   text("🦖", dinoX, 260); 
-
-}
+  }
