@@ -1,5 +1,7 @@
 # Assignment-3---Time
-``
+I added some animations using "if" and "else if"! I hope this is acceptable
+
+```js
 let meteorX = 650; 
 let meteorY = -50; 
 let dinoX = 700;   // Initial position of dinosaur
